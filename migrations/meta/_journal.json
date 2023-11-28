@@ -1,0 +1,34 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1701179321842,
+      "tag": "0000_goofy_firebrand",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1701180099511,
+      "tag": "0001_medical_supreme_intelligence",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1701180184034,
+      "tag": "0002_sudden_shinko_yamashiro",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1701180803807,
+      "tag": "0003_ordinary_morgan_stark",
+      "breakpoints": true
+    }
+  ]
+}
