@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import db, { migrateDb} from '@/src/lib/supabase/db'
+
+migrateDb()
+
 
 const inter = Inter({ subsets: ['latin'] })
 
