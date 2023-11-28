@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import db, { migrateDb} from '@/src/lib/supabase/db'
+import db, { migrateDb} from '@/lib/supabase/db'
 
 migrateDb()
 
