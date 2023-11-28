@@ -1,7 +1,8 @@
 import LandingSection from "./landing-section";
 import LandingClients from "./landing-clients";
-import LandingFeatures from "./landing-feacture";
+import LandingFeatures from "./landing-feature";
 import LandingTestimonials from "./landing-testimonials";
+import LandingPricing from "./landing-pricing";
 
 const HomePage = ({}) => {
   return (
@@ -10,6 +11,7 @@ const HomePage = ({}) => {
       <LandingClients />
       <LandingFeatures />
       <LandingTestimonials />
+      <LandingPricing />
     </>
   );
 };
