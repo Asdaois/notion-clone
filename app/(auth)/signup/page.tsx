@@ -42,7 +42,7 @@ const SignUpFormSchema = z
     path: ['confirmPassword'],
   });
 
-const SignUpPage = () => {
+const Signup = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [submitError, setSubmitError] = useState('');
@@ -210,4 +210,4 @@ const SignUpPage = () => {
   );
 };
 
-export default SignUpPage;
+export default Signup;
