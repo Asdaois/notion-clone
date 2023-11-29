@@ -44,6 +44,7 @@ const LoginPage = ({}) => {
 
   const onSubmit: SubmitHandler<FormSchemaType> = async (formData) => {
     const { error } = await actionLoginUser(formData);
+    console.log("called?");
 
     if (error) {
       form.reset();
